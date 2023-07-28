@@ -1,6 +1,5 @@
-[![License](https://img.shields.io/pypi/l/kerko)][Kerko]
-[![Version](https://img.shields.io/pypi/v/kerko?color=informational)][Kerko_pypi]
-[![Tests status](https://github.com/whiskyechobravo/kerko/workflows/tests/badge.svg)][Kerko_actions]
+# A working version of the app is available at https://fruehanp1.pythonanywhere.com
+
 # From CSC400 Group
 
 First install pip in your enviorment:

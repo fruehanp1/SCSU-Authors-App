@@ -1,0 +1,156 @@
+a:link {
+  color: skyblue;
+  background: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: skyblue;
+  background: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: skyblue;
+  background: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: skyblue;
+  background: transparent;
+  text-decoration: none;
+}
+.list-no-bullets {
+  list-style-type: none;
+}
+.no-decorate:hover,
+.no-decorate:focus {
+  text-decoration: none;
+}
+:hover > .parent-decorate,
+:focus > .parent-decorate {
+  text-decoration: underline;
+}
+.no-js .print-link {
+  display: none;
+}
+.collapse-toggle > .fas.collapse-icon:before {
+  content: "\f107";  /* fa-angle-down */
+}
+.collapse-toggle.collapsed > .fas.collapse-icon:before {
+  content: "\f104";  /* fa-angle-left */
+}
+.break-word {
+  word-wrap: break-word;  /* Older, non-standard name for overflow-wrap. */
+  overflow-wrap: break-word;
+}
+.pre-line {
+  white-space: pre-line;
+}
+.badge{
+  background-color: black;
+  color: white;
+}
+.breadbox > .card-body > * {
+    margin-top: 1rem;
+}
+.breadbox > .card-body > *:first-child {
+    margin-top: 0;
+}
+.card{
+  background-color: black;
+  border-color: skyblue;
+}
+.csl-entry{
+  color:skyblue;
+}
+.facet-item-label{
+  color:skyblue;
+}
+.main-login{
+  padding-top: 100px;
+  text-align: center;
+}
+.main-form{
+  /*padding-top: 100px;*/
+  text-align: center;
+  /*display: inline-block;*/
+}
+.modal-body{
+  background-color: black;
+}
+.modal-content{
+  background-color:black
+}
+@media print {
+  .row {
+    /*
+      Fix for truncated pages in Firefox (issue with display: flex).
+      Ref: https://bugzilla.mozilla.org/show_bug.cgi?id=939897
+      Breaks column layouts, but we can live with that.
+    */
+    display: block !important;
+  }
+  .tab-content > .tab-pane {
+    display: block;
+    opacity: 1;
+  }
+  .text-md-right.text-print-left {
+    text-align: left !important;
+  }
+  .breadbox a,
+  .search-item a,
+  .item-content a {
+    text-decoration: none;
+  }
+}
+.title{
+  color: skyblue;
+}
+.navbar-brand {
+  white-space: normal;
+  }
+.bg-custom {
+    background-color: #17a2b8;
+  }
+.dropdown-width-300 {
+  width: 300px;
+  max-width: 90vw;
+}
+.dropdown-item {
+  white-space: normal;
+  background-color: black;
+  color: skyblue;
+}
+.more-or-less[aria-expanded="true"] span.more {
+  display: none;
+}
+.more-or-less[aria-expanded="false"] span.more {
+  display: inline;
+}
+.more-or-less[aria-expanded="true"] span.less {
+  display: inline;
+}
+.more-or-less[aria-expanded="false"] span.less {
+  display: none;
+}
+main {
+  min-height: calc(100vh - 7rem);
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-color: black;
+  color: white;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.page-item{
+  color: skyblue;
+  background-color: black;
+}
+.page-item.active .page-link {
+  color: black!important;
+  background-color: skyblue !important;
+}

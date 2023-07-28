@@ -1,0 +1,22 @@
+{% extends config.KERKO_TEMPLATE_LAYOUT %}
+{% import "bootstrap/form.html" as wtf %}
+
+{% block content %}
+<div class="main-login">
+<div class="main-form">
+<div class="col-md-4>
+    <form action="" method="post" novalidate>
+        <dl>
+        {{ wtf.render_form(form) }}
+        <br>
+        <input class="btn btn-info" type="submit" value="Retrieve">
+        </dl>
+    </form>
+</div>
+</div>
+<body><h3>
+{{ total }} SCSU Affiliated works available via Scopus.
+</h3></body>
+</div>
+{{ super() }}
+{% endblock %}
